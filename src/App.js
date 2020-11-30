@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react'
 import { createGlobalStyle } from 'styled-components'
 import { StyledApp } from './AppStyles'
 import { createCalendar } from './helpers'
 import Hatch from './Hatch'
 import Toast from 'light-toast';
+=======
+import React, {useState, useEffect} from "react";
+import { createGlobalStyle } from "styled-components";
+import { StyledApp } from "./AppStyles";
+import { createCalendar } from "./helpers";
+import Hatch from './Hatch';
+>>>>>>> parent of e4c1c79... persist state in localstorage
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -13,8 +21,9 @@ const GlobalStyle = createGlobalStyle`
 `
 
 function App() {
-  const [hatches, setHatches] = useState([])
+  const [hatches, setHatches] = useState(createCalendar())
 
+<<<<<<< HEAD
   // Check if localStorage contains our calendar 
   useEffect(() => {
     const calendar = localStorage.calendar
@@ -67,12 +76,16 @@ function App() {
       })
     }
   }
+=======
+  const handleFlipHatch = id => console.log(id)
+>>>>>>> parent of e4c1c79... persist state in localstorage
 
 
   return (
     <>
       <GlobalStyle />
       <StyledApp>
+<<<<<<< HEAD
         {hatches.map(hatch => (
           <Hatch
             key={hatch.id}
@@ -81,9 +94,12 @@ function App() {
             handleClick={handleFlipHatch}
           />
         ))}
+=======
+      {hatches.map(hatch => <Hatch key={hatch.id} hatchData={hatch} handleClick={handleFlipHatch} />)}
+>>>>>>> parent of e4c1c79... persist state in localstorage
       </StyledApp>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
