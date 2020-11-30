@@ -7,7 +7,7 @@ import Toast from 'light-toast';
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background: center / cover url('./img/calendar_backdrop.jpg');
+    background: center / cover url('./img/calendar_backdrop.mistletoe.jpg');
     margin: 0;
   }
 `
@@ -25,15 +25,15 @@ function App() {
   }, [])
 
   // Store calendar in localStorage
-  useEffect(() => {
+ /* useEffect(() => {
     hatches.length && localStorage.setItem('calendar', JSON.stringify(hatches))
   }, [hatches])
-
+*/
   // Check if the date is past
   const isPast = (nr) => {
     const today = new Date()
     today.setMonth(11)
-    today.setDate(15)
+   // today.setDate(15)
     console.log("Jour: " + today.getDate() + 
                 " Mois: " + today.getMonth() +
                 " nr: " + nr)
