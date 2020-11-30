@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/clairedelune88/static/js/main.bec49821.chunk.js",
-    "main.js.map": "/clairedelune88/static/js/main.bec49821.chunk.js.map",
-    "runtime-main.js": "/clairedelune88/static/js/runtime-main.9af10299.js",
-    "runtime-main.js.map": "/clairedelune88/static/js/runtime-main.9af10299.js.map",
-    "static/js/2.efce1e39.chunk.js": "/clairedelune88/static/js/2.efce1e39.chunk.js",
-    "static/js/2.efce1e39.chunk.js.map": "/clairedelune88/static/js/2.efce1e39.chunk.js.map",
-    "index.html": "/clairedelune88/index.html",
-    "precache-manifest.79d9bf8e70ef8e37f65f6d3712906b52.js": "/clairedelune88/precache-manifest.79d9bf8e70ef8e37f65f6d3712906b52.js",
-    "service-worker.js": "/clairedelune88/service-worker.js",
-    "static/js/2.efce1e39.chunk.js.LICENSE.txt": "/clairedelune88/static/js/2.efce1e39.chunk.js.LICENSE.txt",
-    "static/media/hatch_backdrop.jpg": "/clairedelune88/static/media/hatch_backdrop.fe632577.jpg"
+    "main.js": "/static/js/main.bec49821.chunk.js",
+    "main.js.map": "/static/js/main.bec49821.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b3f7a26b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b3f7a26b.js.map",
+    "static/js/2.ee04545f.chunk.js": "/static/js/2.ee04545f.chunk.js",
+    "static/js/2.ee04545f.chunk.js.map": "/static/js/2.ee04545f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b2d516857627a9d54e4b463dc4ad4009.js": "/precache-manifest.b2d516857627a9d54e4b463dc4ad4009.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.ee04545f.chunk.js.LICENSE.txt": "/static/js/2.ee04545f.chunk.js.LICENSE.txt",
+    "static/media/hatch_backdrop.jpg": "/static/media/hatch_backdrop.fe632577.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9af10299.js",
-    "static/js/2.efce1e39.chunk.js",
+    "static/js/runtime-main.b3f7a26b.js",
+    "static/js/2.ee04545f.chunk.js",
     "static/js/main.bec49821.chunk.js"
   ]
 }
